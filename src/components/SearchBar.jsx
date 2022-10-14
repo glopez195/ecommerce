@@ -11,18 +11,20 @@ const SearchBar = () => {
     <div className="w-full mr-5 align-middle flex">
       <form className="flex ml-3 w-full">
         <input
-          className="rounded-tl text-base rounded-bl ml-2 font-thin w-full text-slate-800 h-30 p-1 pl-2"
+          className="rounded-tl text-base rounded-bl ml-2 h-10 font-thin w-full text-slate-800 p-1 pl-2"
           onChange={(event) => {
             updateFilter(event);
           }}
         />
+        <Link to="/store">
+          <button
+            className="px-2 py-0.5 bg-button h-10 text-background rounded-br rounded-tr border-l-1 border-l-black flex"
+            type="submit"
+          >
+            <FaSistrix data-tip="Search" size={25} className="self-center" />
+          </button>
+        </Link>
       </form>
-      <Link
-        className="ds px-2 py-0.5 bg-button text-background rounded-br rounded-tr border-l-1 border-l-black flex"
-        to="/store"
-      >
-        <FaSistrix data-tip="Search" size={20} className='self-center' />
-      </Link>
       <ReactTooltip
         className="z-50"
         place="bottom"

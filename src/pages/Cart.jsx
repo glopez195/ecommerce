@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { TiShoppingCart } from "react-icons/ti";
 import { useStateContext } from "../contexts/ContextProvider";
 import { CartItem, Payment } from "../components";
@@ -13,9 +14,9 @@ const Cart = () => {
     setAnimation(true);
     setTimeout(() => {
       setAprovedPayment(true);
-      setTimeout(()=>{
+      setTimeout(() => {
         reset();
-      }, 2000)
+      }, 2000);
     }, 3000);
   };
 
@@ -24,10 +25,12 @@ const Cart = () => {
       <div className="bg-slate-200 w-full fixed z-10 h-28 mt-20"></div>
       <div className="w-[90%] flex flex-col justify-between bg-white mt-24 fixed h-28 z-10 border-b-1">
         <span className="flex justify-around pt-8 text-2xl font-semibold items-center text-background drop-shadow-lg">
-          <TiShoppingCart
-            className="hover:scale-110 transition-all"
-            size={50}
-          />
+          <Link to="/store">
+            <TiShoppingCart
+              className="hover:scale-110 transition-all"
+              size={50}
+            />
+          </Link>
           <span>
             Total: {"\u20AC"}
             {total}
@@ -44,11 +47,16 @@ const Cart = () => {
             return <CartItem key={index} item={key - 1} count={cart[key]} />;
           }
         })}
-        <div className="flex p-10 justify-center">
+        <div className="flex gap-16 p-10 justify-center text-sm text-red-400">
+          {items_in_cart === 0 ? "*Añade algo al carrito." : ""}
           <button
-            className="bg-amber-500 pt-3 pb-3 pl-6 pr-6 text-background rounded-full text-2xl hover:bg-background  hover:text-amber-500 drop-shadow-lg"
+            className={`bg-amber-500 pt-3 pb-3 pl-6 pr-6 text-background rounded-full text-2xl  drop-shadow-lg ${
+              items_in_cart === 0
+                ? "text-gray-500 bg-amber-200"
+                : "hover:bg-background  hover:text-amber-500"
+            }`}
             onClick={() => {
-              if(items_in_cart === 0) return;
+              if (items_in_cart === 0) return;
               sependThaMoney();
             }}
           >
