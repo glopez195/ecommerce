@@ -16,19 +16,12 @@ const FullStore = () => {
 
 
   return (
-    <div className=" bg-slate-200">
-      <div className="flex gap-10 p-3 pt-24 w-full h-screen flex-wrap justify-center">
-        {data.map((item,index) => {
+    <div className=" bg-white">
+      <div className="flex gap-10 p-3 pt-24 pb-12 w-full h-screen flex-wrap justify-center">
+        {data.map((item) => {
           if (!(((item.title).toLowerCase()).includes((filter).toLowerCase())) &&
           !(((item.category).toLowerCase()).includes((filter).toLowerCase()))
-          ){ if (index === Object.keys(data).length - 1){
-            return (
-            <div key={item.id} className="flex w-full h-[100vh] justify-center align-middle pt-5 text-center">
-              No se han encontrado resultados para "{filter}"
-            </div>
-          );}
-          else return
-            }
+          ) return;
           return (
             <div key={item.id} className="h-64 w-[90%] md:w-2/5">
               <Product item={item} func={showNotification} />

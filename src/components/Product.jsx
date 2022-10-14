@@ -7,7 +7,7 @@ const Product = ({ item,func }) => {
   const { setCurrentProduct, addToCart } = useStateContext();
 
   return (
-    <div className="bg-white flex w-full h-full justify-center align-middle rounded-lg">
+    <div className="bg-white flex w-full drop-shadow-lg h-full justify-center align-middle rounded-lg">
       {/* Image */}
       <div className="w-3/5 h-[90%] p-3 justify-center flex">
         <img className="hover:scale-105 transition-all" src={item.image} />

@@ -21,10 +21,9 @@ const Cart = () => {
   };
 
   return (
-    <div className="h-screen bg-slate-200 flex flex-col items-center canva">
-      <div className="w-full z-10 h-28 mt-20"></div>
-      <div className="w-[90%] flex flex-col justify-between bg-white mt-24 h-28 z-10 border-b-1">
-        <span className="flex justify-around pt-8 text-2xl font-semibold items-center text-background drop-shadow-lg">
+    <div className="bg-white h-screen flex flex-col items-center canva">
+      <div className="w-[90%] bg-slate-200 fixed flex flex-col justify-between mt-24 h-28 z-50 border-b-1">
+        <span className="flex  justify-around p-8 text-2xl font-semibold items-center text-background drop-shadow-lg">
           <Link to="/store">
             <TiShoppingCart
               className="hover:scale-110 transition-all"
@@ -38,7 +37,7 @@ const Cart = () => {
         </span>
       </div>
       <div
-        className={`flex flex-col pt-16 gap-4 bg-white w-[90%] ${
+        className={`flex flex-col mt-28 pt-28 gap-4 bg-white w-[90%] ${
           animation ? "slide-rotate-hor-top" : ""
         }`}
       >

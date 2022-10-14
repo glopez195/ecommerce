@@ -15,7 +15,7 @@ const CartItem = (props) => {
 
   return (
     <div className={`w-full flex ${count===0 ? 'hidden' : 'block'}`}>
-      <div className="m-2 w-full rounded bg-white border-gray-100 border-1 drop-shadow-sm flex justify-center none">
+      <div className="m-2 w-full rounded bg-white border-gray-100 border-1 drop-shadow-lg flex justify-center none">
         <div className="p-3 flex items-center">
           <div>
             <img
