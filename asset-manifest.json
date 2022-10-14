@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.16bad52e.css",
+    "main.js": "/ecommerce/static/js/main.4083d128.js",
+    "static/media/electronics.jpg": "/ecommerce/static/media/electronics.9461ab5b277b3cc6ac41.jpg",
+    "static/media/gamers.jpg": "/ecommerce/static/media/gamers.95031201ee37978579ed.jpg",
+    "static/media/make-up.jpg": "/ecommerce/static/media/make-up.0487ca7cea0804d7507c.jpg",
+    "static/media/women-clothes.jpeg": "/ecommerce/static/media/women-clothes.8694a178b74835aa946b.jpeg",
+    "static/media/others.jpg": "/ecommerce/static/media/others.d7fc9b81d8f343dfb442.jpg",
+    "static/media/male.jpeg": "/ecommerce/static/media/male.a4b433beb5271cbf7a28.jpeg",
+    "static/media/tech-photo.jpeg": "/ecommerce/static/media/tech-photo.a1662d05d5d97931f2e1.jpeg",
+    "static/media/surprise-box.png": "/ecommerce/static/media/surprise-box.436d5d13dc97da8f557b.png",
+    "index.html": "/ecommerce/index.html",
+    "main.16bad52e.css.map": "/ecommerce/static/css/main.16bad52e.css.map",
+    "main.4083d128.js.map": "/ecommerce/static/js/main.4083d128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16bad52e.css",
+    "static/js/main.4083d128.js"
+  ]
+}
