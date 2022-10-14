@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Humberto",
+                "last": "Vázquez"
+            },
+            "location": {
+                "street": {
+                    "number": 4183,
+                    "name": "Andador Soria"
+                },
+                "city": "Real de Catorce",
+                "state": "Tabasco",
+                "country": "Mexico",
+                "postcode": 33660,
+                "coordinates": {
+                    "latitude": "27.4303",
+                    "longitude": "-16.6549"
+                },
+                "timezone": {
+                    "offset": "+4:00",
+                    "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+                }
+            },
+            "email": "humberto.vazquez@example.com",
+            "login": {
+                "uuid": "6ea61ad4-5b8c-4ebf-9b3c-43e2a9f45b13",
+                "username": "bluerabbit360",
+                "password": "qwertz",
+                "salt": "uRHW4T7J",
+                "md5": "f877d0a0ee9589d4f9c3ff68025b41b1",
+                "sha1": "b56914ad55eed76aa8e3b67a033721c685a3eb0d",
+                "sha256": "ecc5d040ecbd24dc854573f8056817309ce9a6e7e3a8ca290b6dbdf3dc2cef73"
+            },
+            "dob": {
+                "date": "1955-05-13T08:42:47.182Z",
+                "age": 67
+            },
+            "registered": {
+                "date": "2020-11-07T08:00:23.572Z",
+                "age": 1
+            },
+            "phone": "(666) 923 7016",
+            "cell": "(683) 836 1562",
+            "id": {
+                "name": "NSS",
+                "value": "14 07 47 3796 4"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/17.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/17.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/17.jpg"
+            },
+            "nat": "MX"
+        }
+    ],
+    "info": {
+        "seed": "fe98feeb5b01045a",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
