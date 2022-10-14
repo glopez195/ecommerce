@@ -9,7 +9,7 @@ const App = () => {
     <div className="bg-background">
       <BrowserRouter>
         <Header />
-        <div>
+        <div className="bg-paragraph">
           <Routes>
             <Route path="/" element={<FrontPage />} />
             <Route path="/store" element={<FullStore />} />

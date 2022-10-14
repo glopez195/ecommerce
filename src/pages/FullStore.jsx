@@ -17,7 +17,7 @@ const FullStore = () => {
 
   return (
     <div className=" bg-slate-200">
-      <div className="flex gap-10 p-3 pt-24 flex-wrap justify-center">
+      <div className="flex gap-10 p-3 pt-24 w-full h-screen flex-wrap justify-center">
         {data.map((item,index) => {
           if (!(((item.title).toLowerCase()).includes((filter).toLowerCase())) &&
           !(((item.category).toLowerCase()).includes((filter).toLowerCase()))

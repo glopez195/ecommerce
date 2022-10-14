@@ -1,3 +1,7 @@
+body{
+  min-height: 100vh;
+}
+
 .notification{
     position:fixed;
     z-index: 200;
@@ -102,4 +106,5 @@
     transition: 2s all;
     scale: 4;
     z-index: 300;
+    border-radius: none;
   }

@@ -21,9 +21,9 @@ const Cart = () => {
   };
 
   return (
-    <div className="bg-slate-200 h-screen flex flex-col items-center canva">
-      <div className="bg-slate-200 w-full fixed z-10 h-28 mt-20"></div>
-      <div className="w-[90%] flex flex-col justify-between bg-white mt-24 fixed h-28 z-10 border-b-1">
+    <div className="h-screen bg-slate-200 flex flex-col items-center canva">
+      <div className="w-full z-10 h-28 mt-20"></div>
+      <div className="w-[90%] flex flex-col justify-between bg-white mt-24 h-28 z-10 border-b-1">
         <span className="flex justify-around pt-8 text-2xl font-semibold items-center text-background drop-shadow-lg">
           <Link to="/store">
             <TiShoppingCart
@@ -38,7 +38,7 @@ const Cart = () => {
         </span>
       </div>
       <div
-        className={`flex flex-col pt-56 gap-4 bg-white w-[90%] ${
+        className={`flex flex-col pt-16 gap-4 bg-white w-[90%] ${
           animation ? "slide-rotate-hor-top" : ""
         }`}
       >
@@ -64,7 +64,6 @@ const Cart = () => {
           </button>
         </div>
       </div>
-      <div className="bg-slate-200 fixed -z-10 h-full w-full"></div>
       <div
         className={`p-10 rounded-full absolute z-[500] top-[40vh] flex-col items-center drop-shadow-xl bg-opacity-80 bg-background transition-all ${
           animation ? "flex" : "hidden"
