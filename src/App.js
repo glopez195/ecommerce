@@ -11,11 +11,11 @@ const App = () => {
         <Header />
         <div className="bg-paragraph">
           <Routes>
-            <Route path="/" element={<FrontPage />} />
             <Route path="/store" element={<FullStore />} />
             <Route path="/userProfile" element={<UserProfile />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/productDetails" element={<ProductDetails />} />
+            <Route path="/*" element={<FrontPage />} />
           </Routes>
         </div>
       </BrowserRouter>
