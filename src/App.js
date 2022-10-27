@@ -9,7 +9,6 @@ const App = () => {
     <div className="bg-background">
       <BrowserRouter>
         <Header />
-        <div className="bg-paragraph">
           <Routes>
             <Route path="/store" element={<FullStore />} />
             <Route path="/userProfile" element={<UserProfile />} />
@@ -17,7 +16,6 @@ const App = () => {
             <Route path="/productDetails" element={<ProductDetails />} />
             <Route path="/*" element={<FrontPage />} />
           </Routes>
-        </div>
       </BrowserRouter>
     </div>
   );
