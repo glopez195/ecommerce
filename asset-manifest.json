@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.beb502dc.css",
-    "main.js": "/ecommerce/static/js/main.2d842bad.js",
+    "main.css": "/ecommerce/static/css/main.827e1006.css",
+    "main.js": "/ecommerce/static/js/main.e9b901df.js",
     "static/media/electronics.jpg": "/ecommerce/static/media/electronics.9461ab5b277b3cc6ac41.jpg",
     "static/media/gamers.jpg": "/ecommerce/static/media/gamers.95031201ee37978579ed.jpg",
     "static/media/make-up.jpg": "/ecommerce/static/media/make-up.0487ca7cea0804d7507c.jpg",
@@ -11,11 +11,11 @@
     "static/media/tech-photo.jpeg": "/ecommerce/static/media/tech-photo.a1662d05d5d97931f2e1.jpeg",
     "static/media/surprise-box.png": "/ecommerce/static/media/surprise-box.436d5d13dc97da8f557b.png",
     "index.html": "/ecommerce/index.html",
-    "main.beb502dc.css.map": "/ecommerce/static/css/main.beb502dc.css.map",
-    "main.2d842bad.js.map": "/ecommerce/static/js/main.2d842bad.js.map"
+    "main.827e1006.css.map": "/ecommerce/static/css/main.827e1006.css.map",
+    "main.e9b901df.js.map": "/ecommerce/static/js/main.e9b901df.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb502dc.css",
-    "static/js/main.2d842bad.js"
+    "static/css/main.827e1006.css",
+    "static/js/main.e9b901df.js"
   ]
 }
