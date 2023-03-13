@@ -34,7 +34,7 @@ const FullStore = () => {
           notification ? "notification-fade-out" : ""
         }`}
       >
-        <span className="text-white">Añadido al carrito!</span>
+        <span className="text-white">Added to the cart!</span>
       </div>
     </div>
   );

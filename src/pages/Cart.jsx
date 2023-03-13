@@ -59,7 +59,7 @@ const Cart = () => {
               sependThaMoney();
             }}
           >
-            Pagar
+            Pay
           </button>
         </div>
       </div>

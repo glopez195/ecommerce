@@ -60,7 +60,7 @@ const ProductDetails = () => {
         <div className="p-2 flex justify-center mt-10 gap-7">
           <button className="text-black text-xl bg-amber-500   hover:bg-amber-300 pt-2 pb-2 pr-4 pl-4 rounded-full drop-shadow-md" onClick={() => {addToCart(currentProduct.id);
         showNotification()}}>
-            Añadir al Carrito
+            Add to Cart
           </button>
         </div>
       </div>
@@ -69,7 +69,7 @@ const ProductDetails = () => {
           notification ? "notification-fade-out" : ""
         }`}
       >
-        <span className="text-white">Añadido al carrito!</span>
+        <span className="text-white">Added to the cart!</span>
       </div>
     </div>
   );

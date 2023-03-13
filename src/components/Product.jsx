@@ -34,7 +34,7 @@ const Product = ({ item,func }) => {
             {"\u20AC"}
             {item.discounted_price}
           </div>
-          <span className="text-xs"> de </span>
+          <span className="text-xs"> from </span>
           <div className="flex">
             <span className="text-sm">{"\u20AC"}</span>
             <span className="text-sm line-through text-slate-600">
@@ -50,7 +50,7 @@ const Product = ({ item,func }) => {
             func();
         }
         }>
-          Añadir al Carrito
+          Add to cart
           </button>
         </div>
       </div>

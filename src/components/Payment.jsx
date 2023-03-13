@@ -5,7 +5,7 @@ const Payment = ({ value }) => {
   if (!value) {
     return (
       <>
-        <span className="text-xl text-white">Procesando</span>
+        <span className="text-xl text-white">Processing</span>
         <div className="lds-facebook">
           <div className="bg-white"></div>
           <div className="bg-white"></div>

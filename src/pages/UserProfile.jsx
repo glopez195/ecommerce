@@ -20,7 +20,7 @@ const UserProfile = () => {
               />
             </div>
             <div className="p-5 text-white rounded-md drop-shadow-sm text-xl flex gap-5 bg-background">
-              <span>Usuario: </span>
+              <span>User: </span>
               <span>{profile.login.username}</span>
             </div>
           </div>
@@ -28,19 +28,19 @@ const UserProfile = () => {
           <div className="flex flex-col gap-8 justify-center">
             <div className="flex  flex-col pt-5 pb-5 pl-10 pr-10 mt-3 ml-1 text-xl bg-slate-100 rounded-sm justify-between min-w-[230px] max-w-[350px] md:text-3xl md:w-[800px] md:self-start text-start">
               <div className="flex md:justify-between justify-around place-items-center">
-                <span className="text-slate-500">Titulo: </span>
+                <span className="text-slate-500">Title: </span>
                 <span className="text-base md:text-2xl self-end">
                   {profile.name.title}{" "}
                 </span>
               </div>
               <div className="flex md:justify-between justify-around items-center">
-                <span className="text-slate-500">Nombre: </span>
+                <span className="text-slate-500">Name: </span>
                 <span className="text-base md:text-2xl self-end">
                   {profile.name.first}{" "}
                 </span>
               </div>
               <div className="flex md:justify-between justify-around items-center">
-                <span className="text-slate-500">Apellido: </span>
+                <span className="text-slate-500">Last Name: </span>
                 <span className="text-base md:text-2xl self-end">
                   {profile.name.last}{" "}
                 </span>
@@ -49,18 +49,18 @@ const UserProfile = () => {
             <div className="flex flex-col p-8 mt-3 ml-1 text-xl bg-slate-200 rounded-sm text-center justify-around min-w-[230px] self-center tm-4 md:self-end md:tm-[-8em]">
               {/* Contact */}
               <span className="text-background font-semibold text-xl">
-                Contacto
+                Contact
               </span>
               <div className="flex justify-around items-center gap-4">
                 <span className="text-slate-500">Email: </span>
                 <span className="text-base">{profile.email} </span>
               </div>
               <div className="flex justify-around items-center gap-4">
-                <span className="text-slate-500">Teléfono Casa: </span>
+                <span className="text-slate-500">Home Phone: </span>
                 <span className="text-base">{profile.phone} </span>
               </div>
               <div className="flex justify-around items-center gap-4">
-                <span className="text-slate-500">Teléfono Trabajo: </span>
+                <span className="text-slate-500">Cell Phone: </span>
                 <span className="text-base">{profile.cell} </span>
               </div>
             </div>
@@ -71,45 +71,45 @@ const UserProfile = () => {
           {/* Location */}
           <div className="flex-col flex gap-5">
             <div className="flex flex-col">
-              <span className="text-xl text-zinc-400">Dirección: </span>
+              <span className="text-xl text-zinc-400">Address: </span>
               <span className=" text-md">
                 {profile.location.street.name}, {profile.location.street.number}
               </span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl text-zinc-400">Ciudad: </span>
+              <span className="text-xl text-zinc-400">City: </span>
               <span className=" text-md">{profile.location.city}</span>
             </div>
           </div>
           <div className="flex-col flex gap-5">
             <div className="flex flex-col">
-              <span className="text-xl text-zinc-400">Estado: </span>
+              <span className="text-xl text-zinc-400">State: </span>
               <span className="text-md">{profile.location.state}</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl text-zinc-400">País: </span>
+              <span className="text-xl text-zinc-400">Country: </span>
               <span className=" text-md">{profile.location.country}</span>
             </div>
           </div>
           <div className="flex-col flex gap-5">
             <div className="flex flex-col">
-              <span className="text-xl text-zinc-400">País: </span>
+              <span className="text-xl text-zinc-400">Country: </span>
               <span className=" text-md">{profile.location.country}</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl text-zinc-400">Postal: </span>
+              <span className="text-xl text-zinc-400">Mail Code: </span>
               <span className=" text-md">{profile.location.postcode}</span>
             </div>
           </div>
           <div className="flex-col flex gap-5">
             <div className="flex flex-col">
               <span className="text-xl text-zinc-400">
-                Fecha de Nacimiento:{" "}
+                DOB:{" "}
               </span>
               <span className=" text-md">{profile.dob.date}</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl text-zinc-400">Edad: </span>
+              <span className="text-xl text-zinc-400">Age: </span>
               <span className=" text-md">{profile.dob.age}</span>
             </div>
           </div>

@@ -13,43 +13,43 @@ const FrontPage = () => {
     <div className=" bg-paragraph">
       <div className="flex justify-center gap-10 pt-28 mb-5 p-5 w-full flex-wrap">
         <Card
-          title="Descubre los productos más vendidos"
-          subtitle="Explora ahora"
+          title="Discover the best sellers"
+          subtitle="Explore now"
           item= {tech_photo}
         />
         <Card
-          title="Ofertas relámpago"
-          subtitle="Descubre todas las ofertas"
+          title="Lightning Deals"
+          subtitle="See offers"
           item= {male}
         />
         <Card
-          title="Tenemos una sorpresa para ti"
-          subtitle="Ver más"
+          title="Surprises for you"
+          subtitle="See more"
           item= {surprise_box}
         />
         <Card
-          title="Las últimas tendencias"
-          subtitle="Saber más"
+          title="Last tendencies"
+          subtitle="Know more here"
           item= {female}
         />
         <Card
-          title="Nuestra selección Tech"
-          subtitle="Descúbrelos"
+          title="Our Tech selection"
+          subtitle="Find out!"
           item= {electronics}
         />
         <Card
-          title="Llévalo a tu manera"
-          subtitle="Ver más"
+          title="Buy it your way"
+          subtitle="See more"
           item= {makeup}
         />
         <Card
-          title="Para los GAMERS"
-          subtitle="No te lo pierdas aquí"
+          title="For the Gamers"
+          subtitle="Don't miss out"
           item= {gamers}
         />
         <Card
-          title="Saca el provecho a Ofertas exclusivas"
-          subtitle="Ver más"
+          title="Take advantage of exclusive offers"
+          subtitle="Explore offers"
           item={others}
         />
       </div>
