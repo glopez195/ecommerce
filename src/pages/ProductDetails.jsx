@@ -38,12 +38,12 @@ const ProductDetails = () => {
         {/* Price details */}
         <div className="flex gap-2 text-3xl">
           <div>
-            {"\u20AC"}
+            $
             {currentProduct.discounted_price}
           </div>
           <span className="text-base"> de </span>
           <div className="flex">
-            <span className="text-lg">{"\u20AC"}</span>
+            <span className="text-lg">$</span>
             <span className="text-lg line-through text-slate-600">
               {currentProduct.price.toFixed(2)}
             </span>

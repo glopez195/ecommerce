@@ -31,7 +31,7 @@ const Cart = () => {
             />
           </Link>
           <span>
-            Total: {"\u20AC"}
+            Total: $
             {total}
           </span>
         </span>
@@ -47,7 +47,7 @@ const Cart = () => {
           }
         })}
         <div className="flex gap-16 p-10 justify-center text-sm text-red-400">
-          {items_in_cart === 0 ? "*Añade algo al carrito." : ""}
+          {items_in_cart === 0 ? "*Add somthing to the cart." : ""}
           <button
             className={`bg-amber-500 pt-3 pb-3 pl-6 pr-6 text-background rounded-full text-2xl  drop-shadow-lg ${
               items_in_cart === 0

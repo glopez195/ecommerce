@@ -43,12 +43,12 @@ const CartItem = (props) => {
           {/* Price details */}
           <div className="flex gap-2 flex-wrap">
             <div>
-              {"\u20AC"}
+              $
               {data[props.item].discounted_price}
             </div>
             <span className="text-xs"> de </span>
             <div className="flex">
-              <span className="text-sm">{"\u20AC"}</span>
+              <span className="text-sm">$</span>
               <span className="text-sm line-through text-slate-600">
                 {data[props.item].price.toFixed(2)}
               </span>
